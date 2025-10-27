@@ -114,3 +114,47 @@ body {
     padding: 0 20px;
   }
 }
+
+/* Import reset if needed */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Section styling */
+.what-we-do {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+.what-we-do h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+/* Layout for the icons */
+.activities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.activity {
+  max-width: 220px;
+}
+
+.activity span {
+  font-size: 50px;
+  color: #ff6565;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.activity h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
